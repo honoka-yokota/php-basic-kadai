@@ -16,7 +16,7 @@
       }
 
       // メソッドを定義する
-      public function getPrice()
+      public function showPrice()
       {
         echo $this->price . '<br>';
       }
@@ -26,7 +26,7 @@
     $food = new Food('potato', 250);
     // インスタンス$foodの価格を出力する
     print_r($food);
-    $food->getPrice();
+    $food->showPrice();
     
 
     //クラスを定義する
@@ -45,7 +45,7 @@
       }
 
       // メソッドを定義する
-      public function getHeight()
+      public function showHeight()
       {
         echo $this->height . '<br>';
       }
@@ -55,7 +55,7 @@
     $animal = new Animal('dog', 60, 5000);
     // インスタンス$animalの高さを出力する
     print_r($animal);
-    $animal->getheight();
+    $animal->showheight();
 
     ?>
   </p>
